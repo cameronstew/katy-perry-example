@@ -8,3 +8,8 @@ sharks = {
     candidates: ["Bobby Wilson", "50cent", "Channing Tatum", "Ron Swanson", "McJagger"]
   }
 }
+
+KATY_PERRY[:left_shark_candidates] = sharks
+
+puts KATY_PERRY[:left_shark_candidates][:left_shark][:candidates].first
+puts KATY_PERRY[:left_shark_candidates][:left_shark][:candidates].last
